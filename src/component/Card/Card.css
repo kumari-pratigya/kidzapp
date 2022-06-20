@@ -1,0 +1,87 @@
+.card{
+    display:inline-flex;
+    margin-left: 40px;
+    margin-right: auto;
+}
+.carousalTitle{
+    color: #002240;
+    font-size: 14PX;
+    text-align:center;
+    width:max-content;
+}
+
+.CardText{
+    color:#955da4;
+    font-size:14px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:10px;
+    overflow: hidden;
+    display:-webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:1;
+}
+.card-caraousal{
+    height: 600px;
+}
+
+.label{
+background-color:#f0c61a;
+border-radius: 19px;
+width:60px;
+margin-left: 40PX;
+justify-content: center;
+height:30px
+}
+
+.labeltext{
+     font-size: 12px;
+}
+.labelimage{
+    background-color:#f0c61a;
+    width:10px;
+} 
+.price-old{
+    color:red;
+    text-decoration: line-through;
+}
+.new-price{
+    color: black;
+    margin-top: 20px;
+}
+.Booking{
+    background-color: transparent;
+    color: red;
+    border-radius: 20px;
+    border-color: red;
+    width: 120px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+ .Carousal-container .carousel-indicators button{
+    border-radius:50% !important;
+    margin-left: 20px !important;
+    background-color:#d6d6d6 !important;
+    width:15px !important;
+    height: 10px !important;
+    margin-bottom:100px !important;
+}
+
+.Carousal-container{
+    height:auto;
+}
+.viewAllBtn{
+    border-radius: 30px;
+    background-color: transparent;
+    border-color:#3eb46d;
+    color:#3eb46d;
+    width: 250px;
+    font-size: 24px;
+    margin-bottom:50px;
+    height: 50px;
+}
+.viewAllBtn:hover{
+    background-color: #3eb46d;
+    color: white;
+}

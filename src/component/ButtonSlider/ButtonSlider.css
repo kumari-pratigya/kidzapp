@@ -1,0 +1,180 @@
+
+.ButtonSliderContainer{
+    margin-top: 10px;
+    margin-bottom: 70px;
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.activeButton{
+    justify-content: center;
+    justify-items: center;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #d6e5e8;
+    background-color: #fafafa;
+    color:#002240;
+    font-size: 15px;
+    
+}
+.activeButton :active{
+    /* margin-left: 10px; */
+    background-color:#007bff;
+    cursor: pointer;
+}
+.activeButton:hover{
+    border: 1px solid #007bff;
+    background-color: #fafafa;
+    color: #002240;
+    cursor: pointer;
+}
+
+ .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    color:#484848;
+   
+}
+.slick-prev:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+color:#484848;
+   
+} 
+.carousalTitle{
+    color: #002240;
+    font-size: 14PX;
+    text-align:center;
+    width:max-content;
+}
+.CardText{
+    color:#955da4;
+    font-size:14px;
+    text-align:center;
+    margin-left: auto;
+    margin-right:10px;
+    overflow: hidden;
+    display:-webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:1;
+}
+.label{
+    background-color:#f0c61a;
+    border-radius: 19px;
+    width:80px;
+   
+    display: inline-flex;
+    justify-content: center;
+    height:30px
+    }
+    
+    .labeltext{
+         font-size: 12px;
+         color: white;
+         margin-top:5px;
+         margin-left: 5px;
+    }
+    .labelimage{
+        background-color:#f0c61a;
+        max-width: 100%;
+    } 
+    .viewAllBtn{
+        border-radius: 30px;
+        background-color: transparent;
+        border-color:#3eb46d;
+        color:#3eb46d;
+        width: 250px;
+        font-size: 24px;
+        margin-top: 50px;
+        margin-bottom:50px;
+        height: 50px;
+    }
+    .viewAllBtn:hover{
+        background-color: #3eb46d;
+        color: white;
+        border: none;
+    }
+.Booking:hover{
+    background-color: red;
+    border: none;
+    color: white;
+}
+.Booking{
+    margin-left:40px;
+}
+.CardImage{
+    transition: transform .2s ease;
+    display: block;
+}
+.CardImage:hover{
+    transform: scale(1.2);
+    transform-origin: 50% 50%;
+}
+.button_slider{
+    margin-left:0px;
+    margin-right:100px;
+}
+.card_slider{
+    margin-left:0px;
+    margin-right:100px;
+}
+.dealImage{
+    width:80px;
+    height:60px;
+    position:absolute;
+}
+.buttonCard{
+    width:250px;
+    height:350px;
+    border-radius:20px;
+    box-shadow:2px 2px 10px rgb(0 0 0 / 20%) ;
+    margin-top:30px;
+    overflow:hidden;
+}
+.buttonCardBody{
+    width: 200px;
+}
+@media (max-width: 1199.98px) { 
+    .buttonCard{
+        width:fit-content;
+        height:300px;
+        border-radius:20px;
+        box-shadow:2px 2px 10px rgb(0 0 0 / 20%) ;
+        margin-top:30px;
+        overflow:hidden;
+    }
+} 
+@media (max-width: 991.98px) { 
+    .buttonCard{
+        width:fit-content;
+        height:fit-content;
+        border-radius:20px;
+        box-shadow:2px 2px 10px rgb(0 0 0 / 20%) ;
+        margin-top:30px;
+        overflow:hidden;
+    }
+} 
+
+ @media (max-width: 767.98px) { 
+
+ }
+
+@media (max-width: 575.98px) { 
+    .buttonCard{
+    width:fit-content;
+    height:fit-content;
+    border-radius:20px;
+    /* justify-content: center;
+    align-items: center;
+    display: flex; */
+    box-shadow:2px 2px 10px rgb(0 0 0 / 20%) ;
+    margin-top:30px;
+    overflow:hidden;
+}
+
+ }

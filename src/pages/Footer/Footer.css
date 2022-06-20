@@ -1,0 +1,79 @@
+.main-footer{
+    background-color:#002240;
+    color: #8d969b;
+    margin-left:auto;
+    margin-right:auto;
+    height: auto;
+}
+.footerheading{
+    color:#cecece;
+    margin-top:50px;
+    margin-bottom:20px;
+}
+.Footerlist{
+    list-style: none;
+}
+.FooterColumn{
+    width: max-content;
+}
+
+.BsInstagram{
+    color:white;  
+    cursor: pointer;
+}
+.BsFacebook{
+    color: white; 
+    cursor: pointer;
+}
+.BsWhatsapp{
+    color: white; 
+    cursor: pointer;
+}
+.BsYoutube{
+    color:white;
+    cursor:pointer;
+  
+}
+.paragraph{
+    margin-top:10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.paragraph2{
+    cursor: pointer;
+}
+.paragraph3{
+    cursor: pointer;
+}
+.paragraph4{
+    cursor: pointer;
+}
+
+.masterCard{
+    margin-left:10px;
+    margin-top: 20px;
+    width: 50px;
+}
+.VisaCard{
+    margin-top: 20px;
+    width:50px;
+}
+.footerbottom{
+    background-color:#002240;
+    height:auto;  
+}
+.footerbottomparagraph{
+    padding-top: 10px;
+    margin-right:100px;
+}
+.footerbottomimg{
+    width: max-content;
+    margin-top:20px;
+   
+}
+.whatsappImg{
+    position: fixed;
+    bottom:20px;
+   right: 50px;
+    width: 100px;
+}

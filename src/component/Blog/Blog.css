@@ -1,0 +1,54 @@
+.blogHeading{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.BlogParagraph{
+    display:-webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:3;
+    color: #666;
+    font-size: 14px;
+    overflow:hidden;
+    margin-top: 10px;
+}
+.blogLink{
+    float: left;
+    margin-top: 10px;
+    color: #00acef;
+    font-size: 14px;
+    text-decoration: none;
+}
+.blogTitle{
+    color: #222;
+    font-size: 16px;
+    display:-webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:1;
+    overflow: hidden;
+}
+.blogImage{
+    padding: 5px 5px 5px 5px;
+}
+.BlogButton{
+    background-image: url(https://beta.kidzapp.com/images/btn-01.png); 
+    width:200px;
+    height: 40px;
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+}
+.BlogButtonParagraph{
+    position:absolute;
+    font-weight:600px;
+    color: white;
+    font-size: 16px;
+    margin-left: 100px;
+    cursor: pointer;
+    margin-top:-30px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}

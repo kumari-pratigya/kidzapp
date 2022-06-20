@@ -1,0 +1,32 @@
+.kidzappTvHeading h1{
+   padding-top: 30px;
+   padding-bottom:30px;
+}
+.carousel-control-next-icon {
+     background-image:none; 
+}
+ .carousel-control-prev-icon {
+    background-image:none;
+}
+.carousel-indicators button{
+   width: 12px!important;
+   height: 12px !important;
+}
+.videoLikeIcon{
+    position: absolute;
+    top:10px;
+    right: 60px;
+}
+.videoShareIcon{
+    position: absolute;
+    top: 10px;
+    right:10px;
+}
+.playImage{
+    position: absolute;
+    top:200px;
+    left:500px;
+}
+.review_title{
+    margin-top: 40px;
+}

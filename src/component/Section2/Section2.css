@@ -1,0 +1,133 @@
+.kidsFeetRight{
+    background-color: #00aff4;
+    padding-left: 0px;
+}
+.kidsFeetRight p{
+    color: white;
+}
+.kidFeedTitle{
+    color: #fff;
+    line-height: 60px;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 80px;
+    font-family: SFUIDisplayBold;
+    margin-bottom: 0;
+}
+.kidsFeedForm{
+    display: flex;
+    margin-bottom: 30px;
+}
+.kidsFeedForm form{
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+}
+.kidsFeedForm input[type=email]{
+    width: 50%;
+    float: left;
+    border-radius: 25px 0 0 25px;
+    border: none;
+    box-shadow: none;
+    font-size: 16px;
+    line-height: 20px;
+    height: 40px;
+    margin-left: 100px;
+    padding: 10px 25px;
+    color: #8d969b;
+    font-family: SFUIDisplayLight;
+}
+.kidsFeedForm input[type=submit]{
+    width: 20%;
+    float: left;
+    border-radius: 0 25px 25px 0;
+    border: none;
+    box-shadow: none;
+    font-size: 16px;
+    line-height: 21px;
+    height: 40px;
+    color: #fff;
+    background-color: #e25b25;
+    cursor: pointer;
+    font-family: SFUIDisplayLight;
+}
+.kidsFeedValues .feedValues{
+    font-size: 36px;
+    line-height: 30px;
+    color: #fff;
+    text-align: left;
+    font-family: SFUIDisplayBold;
+}
+.kidsFeedValues p{
+    color: #fff;
+    text-align: left;
+    text-align: center;
+    margin-bottom: 0!important;
+    font-family: SFUIDisplayMedium;
+}
+.section2Container{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+@media (max-width: 1199.98px) { 
+    .buttonCard{
+        width:fit-content;
+        height:300px;
+        border-radius:20px;
+        box-shadow:2px 2px 10px rgb(0 0 0 / 20%) ;
+        margin-top:30px;
+        overflow:hidden;
+    }
+} 
+@media (max-width: 991.98px) { 
+    .buttonCard{
+        width:fit-content;
+        height:fit-content;
+        border-radius:20px;
+        box-shadow:2px 2px 10px rgb(0 0 0 / 20%) ;
+        margin-top:30px;
+        overflow:hidden;
+    }
+} 
+
+ @media (max-width: 767.98px) { 
+
+ }
+
+@media (max-width: 575.98px) { 
+.kidsFeetRight {
+    background-color: #00aff4;
+    padding-left: 0px;
+    margin-left: 37px;
+    width: 82%;
+}
+.kidsFeedForm input[type=email]{
+    width: 30%;
+    float: left;
+    border-radius: 25px 0 0 25px;
+    border: none;
+    box-shadow: none;
+    font-size: 16px;
+    line-height: 20px;
+    height: 40px;
+    margin-left: 100px;
+    padding: 10px 25px;
+    color: #8d969b;
+    font-family: SFUIDisplayLight;
+}
+.kidsFeedForm input[type=submit]{
+    width: 20%;
+    float: left;
+    border-radius: 0 25px 25px 0;
+    border: none;
+    box-shadow: none;
+    font-size: 16px;
+    line-height: 21px;
+    height: 40px;
+    color: #fff;
+    background-color: #e25b25;
+    cursor: pointer;
+    font-family: SFUIDisplayLight;
+}
+}

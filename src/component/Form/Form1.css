@@ -1,0 +1,68 @@
+.get-touch-banner{
+    background-image: url(../../images/get-touch-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+    margin-top: 130px;
+    background-repeat: no-repeat;
+}
+.wrapper h1{
+    font-size: 36px;
+    line-height: 41px;
+    letter-spacing: -1px;
+    font-family: sfuidisplaybold;
+    font-weight:bold;
+    margin-bottom: 10px;
+}
+.wrapper h2{ 
+font-size: 19px;
+    width: 40%;
+    margin: 0 auto;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: sfuidisplay;
+}
+.contactForm{
+    margin-top: 40px;
+    padding:40px 40px 40px 40px ;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+    height:600px;
+    background-color: #d3d3d3;
+    border-radius: 20px;
+    box-shadow: 0px 1px 10px grey;
+}
+.formLabel{
+    text-align:left;
+    float: left;
+    font-weight: bold;
+}
+.formLabel1{
+    float: left;
+    font-weight: bold;
+}
+.field{
+    border-radius: 20px;
+    box-shadow: 0px 1px 10px grey;
+}
+.recaptcha{
+    float: left;
+    background-color:#e4e0e0dc ;
+    padding: 10px 10px 10px 10px;
+    width: 320px;
+    border-radius: 20px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    height: 80px;
+  
+}
+.recaptcha_image{
+    float: right;
+}
+.submitButton{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:20px;
+}

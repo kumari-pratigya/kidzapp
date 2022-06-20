@@ -1,0 +1,192 @@
+.cardSliderSection{
+    background-color: #fafafa;
+    height: auto;
+}
+.CardHeading{
+    padding-top:50px;
+    font-size:72px;
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom:30px;
+    font-family: SFUIDisplayBold;
+    font-weight: bold;
+}
+.cardBottom{
+    display: inline-flex;
+    background-color: #fafafa;
+    border-radius: 20px;
+    margin-left: -120px;
+    position:absolute;
+    bottom:15px;
+    width: 250px;
+}
+.venue{
+   color:#955da4;
+   font-size: 16px;
+   text-align: left; 
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp:1;
+   overflow: hidden;
+}
+.cardBody{
+    padding: 20px 20px 20px 20px;
+}
+span.reviewTitle {
+    color: #00aff4;
+    font-weight: bold;
+    text-align:left;
+    font-size: 18px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:1;
+    overflow: hidden;
+    font-family: SFUIDisplayBold;
+
+}
+.cardLine{
+    border-bottom: 6px solid #00aff4;
+    max-width: 30px;
+    margin: 5px auto 15px 0;
+}
+.cardBody p{
+    color: #333;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    margin-bottom: 10px;
+    font-family: SFUIDisplayLight;
+}
+.card1{
+    box-shadow: 0px 1px 5px rgb(172, 169, 169);
+    margin-right: 50px;
+    width:300px !important;
+    height: 270px;
+    background-color: white;
+    border-radius: 20PX;
+    padding: 20px 20px 20px 20px;
+}
+    .Cardlabel{
+        background-color:#f0c61a;
+        width:80px;
+        padding: 10px 10px 10px 10px;
+        margin-left: 50px;
+        margin-top: 15px;
+        border-radius: 19px;
+        display: inline-flex;
+        height:30px
+        }
+         .Cardlabeltext{
+             font-size: 12px;
+             color: white;
+             margin-left: 10px;
+             margin-top: -5px;
+        }
+        .Cardlabelimage{
+            background-color:#f0c61a;
+            width:10px;
+            margin-left: 20px;
+        } 
+
+.CardviewAllBtn{
+    border-radius: 30px;
+    background-color: transparent;
+    border-color:#3eb46d;
+    color:#3eb46d;
+    width: 250px;
+    font-size: 24px;
+    margin-bottom:50px;
+    margin-top: 50px;
+    height: 50px;
+}
+.CardviewAllBtn:hover{
+    background-color: #3eb46d;
+    color: white;
+}
+.cardparagraph{
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-align: left;
+}
+.Cardlabel .slick-slide img {
+    width:10px !important;
+    height: 10px !important;
+}
+.cardSlider{
+    justify-content: center;
+    display: inline-block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 1199.98px) { 
+    .cardSlider{
+        justify-content: center;
+        display: inline-block;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card1{
+        box-shadow: 0px 1px 5px rgb(172, 169, 169);
+        margin-right: 50px;
+        width:fit-content !important;
+        height: 270px;
+        background-color: white;
+        border-radius: 20PX;
+        padding: 20px 20px 20px 20px;
+    }
+} 
+@media (max-width: 991.98px) { 
+   
+
+}
+@media (max-width: 767.98px) { 
+
+}
+@media (max-width: 575.98px) { 
+    .card1{
+        box-shadow: 0px 1px 5px rgb(172, 169, 169);
+        margin-right: 50px;
+        width:fit-content !important;
+        height: 270px;
+        background-color: white;
+        border-radius: 20PX;
+        padding: 20px 20px 20px 20px;
+    }
+    .CardHeading{
+        padding-top:50px;
+        font-size:20px;
+        width:fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom:30px;
+        font-family: SFUIDisplayBold;
+        font-weight: bold;
+    }
+    .Cardlabel{
+        background-color:#f0c61a;
+        width:fit-content;
+        padding: 10px 10px 10px 10px;
+        margin-left: 50px;
+        margin-top: 15px;
+        border-radius: 19px;
+        display: inline-flex;
+        height:30px
+        }
+        .cardSlider{
+            /* width:fit-content; */
+            justify-content: center;
+            display: inline-block;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+ }

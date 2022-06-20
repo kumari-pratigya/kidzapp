@@ -1,0 +1,121 @@
+.SliderSection{
+    background-color:  #00aff4;
+}
+.SliderSectionHeading{
+    color: white;
+    font-size: 46px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.SliderSectionCard1{
+    height: 140px;
+    width:140px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.SliderSectionCard1 img{
+    
+    width: 100px !important;
+    height: 100px !important;
+    padding: 5px 5px 5px 5px;
+    border-radius: 50%;
+}
+.SliderSectionCard2 img{
+    width:100px !important;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 10px 10px 10px 10px;
+    height:100px !important;
+}
+.SliderSectionCard1Row{
+    margin-left:170px;
+    margin-right:170px;
+}
+.SliderSectionCard2{
+    width: 150px;
+    height:190px;
+    background-color: white;
+    margin-bottom:40px;
+    border-radius: 20px;
+}
+.SliderSectionParagraph{
+    color: white;
+    text-align: center;
+   margin-left:-100px;
+    margin-top: 20px;
+}
+.SliderSectionText{
+    color: white;
+    text-align: center;
+   /* margin-right:30px; */
+    margin-top: 20px;
+}
+.SliderSectionCard2 .SliderSectionText{
+    color:#002240;
+}
+.SliderSectionCard1 .slick-slide img {
+    width: 30px !important;
+    height: 50px !important;
+}
+@media (max-width: 1199.98px) { 
+   
+} 
+@media (max-width: 991.98px) { 
+
+}
+@media (max-width: 767.98px) { 
+
+}
+@media (max-width: 575.98px) { 
+    .SliderSectionCard1{
+        height:140px;
+        width:fit-content;
+        background-color: white;
+        border-radius: 50%;
+        display: block ;
+        margin-left: auto;
+        margin-right: auto;
+        width: 140px;
+    }
+    .SliderSectionParagraph{
+        color: white;
+        text-align: center;
+        margin-left:0px;
+        margin-top: 20px;
+    }
+
+    .SliderSectionHeading{
+        color: white;
+        font-size: 30px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    
+    .SliderSectionCard1 img{
+        
+        width: 100px !important;
+        height: 120px !important;
+        border-radius: 50%;
+        margin-left: 20px;
+        padding-top: 30px;
+      
+    }
+    .SliderSectionCard1Row{
+        margin-left: 30px;
+        padding-left: 30px;
+        padding-top: 20px;
+        justify-content: center;
+        margin-right: 30px;
+    }
+
+ }
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+.TvBanner{
+    background-image: url(../../images/blog-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 130px;
+    padding: 40px 0;
+    background-repeat: no-repeat;
+    box-shadow: rgb(0 0 0 / 15%) 0 0 8;
+}
+.Tvsearchbtn{
+    width: 100%;
+}
