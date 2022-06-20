@@ -17,7 +17,7 @@ const CardSlider = () => {
       console.log("successful!");
     })
     .catch(error=>{
-      console.log("error");
+      console.log("error ");
     })
     },[])
   const settings = {
