@@ -1,7 +1,7 @@
 .slider{
    /* top:124px; */
     width:auto;
-    border:1px solid red;
+   
     height:100%;
     position:relative;
 }
@@ -16,7 +16,7 @@
 }
 .BannerContent{
     position:absolute;
-    top:20%;
+    top:40%;
     z-index:2;
     transform: translate(250px, 10px);
     width:700px;
