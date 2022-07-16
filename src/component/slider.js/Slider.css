@@ -1,7 +1,6 @@
 .slider{
    /* top:124px; */
-    width:auto;
-   
+    width:auto; 
     height:100%;
     position:relative;
 }
@@ -202,7 +201,7 @@
 
 @media (max-width: 575.98px) { 
     .slider{
-        margin-top:80px;
+        /* margin-top:80px; */
         width:100%;
         position: relative;
     }
