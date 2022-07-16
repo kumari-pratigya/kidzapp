@@ -3,7 +3,7 @@
     width:auto;
     border:1px solid red;
     height:100%;
-    position: relative;
+    position:relative;
 }
 .slider .slider_item:before{
   z-index:1;
