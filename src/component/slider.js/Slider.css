@@ -1,6 +1,7 @@
 .slider{
-    margin-top:100px;
+   top:124px;
     width:auto;
+    border:1px solid red;
     height:100%;
     position: relative;
 }
