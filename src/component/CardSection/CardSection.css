@@ -23,9 +23,8 @@
 } */
 .Sectioncards1{
     height:420px;
-    border: none;
+    border:1px solid red;
     border-radius:19px;
-    border: none;
     margin-bottom: 30px;
     overflow: hidden;
     box-shadow:2px 2px 10px white;
