@@ -133,7 +133,7 @@ transform-origin: 50% 50%;
     }
     .CardTitle{
         font-size:20px;
-        line-height:28px;
+        /* line-height:28px; */
          color: #002240;
         font-family: SFUIDisplayBold;
     }
