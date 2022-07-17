@@ -22,18 +22,17 @@ const CardSection = () => {
       <Container fluid className="cust-container">
 
       {/* first row ---------*/}
-<Row className='cardSectionHeading justify-content-md-center'>
+<Row className='cardSectionHeading '>
 <Col>
 <h2>Our Blog Picks</h2>
 </Col>
 </Row>
-<Row  className='blogs'>
+<Row  className='blogs px-5'>
 {
   data.map((post,i)=>{
     return(
       <>
       {(i===0 || i===5)?
-   <>
    <Col  md={8} >
 <Card  className='Sectioncards1' >
   <Card.Img style={{borderRadius:"19px 19px 0px 0px"}} variant="top" src={post.cover_image} />
@@ -47,9 +46,9 @@ const CardSection = () => {
 </Card>
 </Col>
     
-   </>  
+    
     :
-      <>
+
       <Col  md={4}>
 <Card  className='Sectioncards1'>
   <Card.Img style={{borderRadius:"20px 20px 0px 0px",height:"150px"}} variant="top" src={post.cover_image} />
@@ -62,7 +61,7 @@ const CardSection = () => {
   </Card.Body>
 </Card> 
 </Col>
-</>
+
  }
 </>
 
