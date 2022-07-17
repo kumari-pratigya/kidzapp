@@ -140,7 +140,7 @@ transform-origin: 50% 50%;
     .KidzappTeam{
         color:#9f57a9;
         font-size: 8px;
-        float: left;
+        margin-left: -20px;
         /* margin-bottom: 0; */
     }
     
