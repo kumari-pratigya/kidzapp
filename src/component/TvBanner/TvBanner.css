@@ -1,6 +1,6 @@
 .TvBanner{
     background-image: url(../../images/blog-banner.jpg);
-    background-size: cover;
+    background-size:cover;
     background-position: center;
     /* padding: 40px 0; */
     background-repeat: no-repeat;
