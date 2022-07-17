@@ -35,7 +35,7 @@ const CardSection = () => {
       {(i===0 || i===5)?
    <Col  md={8} >
 <Card  className='Sectioncards1' >
-  <Card.Img style={{borderRadius:"19px 19px 0px 0px"}} variant="top" src={post.cover_image} />
+  <Card.Img  variant="top" src={post.cover_image} />
   <Card.Body>
     <Card.Title><h3 className='CardTitle'>{post.title} </h3></Card.Title>
     <Card.Text   className="horizontalLine1">
@@ -51,7 +51,7 @@ const CardSection = () => {
 
       <Col  md={4}>
 <Card  className='Sectioncards1'>
-  <Card.Img style={{borderRadius:"20px 20px 0px 0px",height:"150px"}} variant="top" src={post.cover_image} />
+  <Card.Img style={{height:"150px"}} variant="top" src={post.cover_image} />
   <Card.Body>
     <Card.Title><h3 className='CardTitle'>{post.title} </h3></Card.Title>
     <Card.Text  className="horizontalLine1">
