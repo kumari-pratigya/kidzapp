@@ -3,9 +3,12 @@
 }
 
 .blogs{
-    margin-left: 200px;
+    /* margin-left: 200px;
     margin-right: 200px;
-    margin-top: 30px;
+    margin-top: 30px; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 .blogs .card{
     margin-left:30px;
@@ -16,13 +19,8 @@
     padding: 40px 0 45px;
 
 }
-/* .Sectioncards2 {
-    border-radius:20px;
-    border:none;
-    box-shadow: 0 3px 6px #000002;
-} */
 .Sectioncards1{
-    height:500px;
+    height:420px;
     border:1px solid red;
     border-radius:19px;
     margin-bottom: 30px;
