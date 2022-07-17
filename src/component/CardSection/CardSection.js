@@ -27,14 +27,14 @@ const CardSection = () => {
 <h2>Our Blog Picks</h2>
 </Col>
 </Row>
-<Row className='blogs'>
+<Row mx-2 className='blogs'>
 {
   data.map((post,i)=>{
     return(
       <>
       {(i===0 || i===5)?
    <>
-   <Col md={8} >
+   <Col  md={8} >
 <Card  className='Sectioncards1' >
   <Card.Img style={{borderRadius:"19px 19px 0px 0px"}} variant="top" src={post.cover_image} />
   <Card.Body>
@@ -50,7 +50,7 @@ const CardSection = () => {
    </>  
     :
       <>
-      <Col md={4}>
+      <Col  md={4}>
 <Card  className='Sectioncards1'>
   <Card.Img style={{borderRadius:"20px 20px 0px 0px",height:"150px"}} variant="top" src={post.cover_image} />
   <Card.Body>
