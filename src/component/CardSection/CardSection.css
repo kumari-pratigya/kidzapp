@@ -125,7 +125,7 @@ transform-origin: 50% 50%;
     
     }
     .Sectioncards1{
-        height:600px;
+        /* height:600px; */
         border-radius:19px;
         margin-bottom: 30px;
         overflow: hidden;
@@ -136,5 +136,19 @@ transform-origin: 50% 50%;
         /* line-height:28px; */
          color: #002240;
         font-family: SFUIDisplayBold;
+    }
+    .KidzappTeam{
+        color:#9f57a9;
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    
+    .horizontalLine1 hr{
+       
+        border-bottom: 6px solid #9f57a9;
+        max-width: 70px;
+        border-top: 0px;
+        opacity: 1;
+       
     }
  }
