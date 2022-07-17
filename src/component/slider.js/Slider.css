@@ -15,13 +15,13 @@
 }
 .BannerContent{
     position:absolute;
-    top:40%;
+    top:30%;
     z-index:2;
-    transform: translate(250px, 10px);
+    transform: translate(250px, 20px);
     width:700px;
-    height:70%;
-    /* margin-left:300px; */
+    height:auto;
     margin-right: auto;
+    margin-left: auto;
     
 }
 .slider .slick-slide img {
@@ -29,8 +29,8 @@
     height:450px !important;
 }
 
-.slider h1{
-    font-size: 70px;
+.slider h2{
+    font-size: 50px;
     font-family: "SFUIDisplayBold";
     color: white;
     font-weight: bold;
@@ -151,7 +151,7 @@
 }
 @media (max-width: 767.98px) { 
     .slider{
-        margin-top:80px;
+        /* margin-top:80px; */
         width:100%;
         position: relative;
     }

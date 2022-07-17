@@ -22,7 +22,7 @@ const Home = () => {
       <CardSlider/>
       <LogoSlider/>
       <Section2/>
-      {/* <Footer/> */}
+      <Footer/>
     </>
   )
 }

@@ -38,7 +38,7 @@ const Banner = () => {
         <div key={post.id} className='slider_item'>
         <img alt="image"  src={post.image_url}/>
         <div className='BannerContent'>
-         <h1 className='caraousalheading'>{post.title}</h1>
+         <h2 className='caraousalheading'>{post.title}</h2>
          <p  className='caraousalPara'>{post.description} </p>
         <button className='caraousalButton'>Book Now</button>
        </div>
