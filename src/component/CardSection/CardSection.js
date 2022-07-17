@@ -38,7 +38,7 @@ const CardSection = () => {
   <Card.Img style={{borderRadius:"19px 19px 0px 0px"}} variant="top" src={post.cover_image} />
   <Card.Body>
     <Card.Title><h3 className='CardTitle'>{post.title} </h3></Card.Title>
-    <Card.Text style={{bottom:"20px",position:"absolute"}}  className="horizontalLine1">
+    <Card.Text   className="horizontalLine1">
     <hr />
     <p className='KidzappTeam'>{post.auther_name}</p>
     </Card.Text>
