@@ -27,7 +27,7 @@ const CardSection = () => {
 <h2>Our Blog Picks</h2>
 </Col>
 </Row>
-<Row mx-2 className='blogs'>
+<Row  className='blogs'>
 {
   data.map((post,i)=>{
     return(

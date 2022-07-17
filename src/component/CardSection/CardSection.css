@@ -3,17 +3,16 @@
 }
 
 .blogs{
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 30px;
-    /* margin-left:auto;
+    border: 10px solid green;
+    margin-left:auto;
     align-items: center;
     justify-content: center;
-    margin-right:auto; */
-    /* width: 70%; */
+    margin-right:auto;
+    width: 70%;
 }
 .blogs .card{
-    margin-left:30px;
+    /* margin-left:30px; */
 }
 .cardSectionHeading h2{
     color: white;
@@ -38,7 +37,7 @@
 transform: scale(1.1);
 transform-origin: 50% 50%;
 }
-.Sectioncards3{
+/* .Sectioncards3{
     border-radius:20px;
     border:none;
     height:470px
@@ -47,13 +46,13 @@ transform-origin: 50% 50%;
     border-radius:20px;
     border:none;
     height:400px
-}
-.Sectioncards2 img{
+} */
+/* .Sectioncards2 img{
     height:150px;
 }
 .Sectioncards3 img{
     height:320px;
-}
+} */
 .CardSectionviewAllBtn{
     border-radius: 30px;
     background-color: transparent;
