@@ -170,7 +170,7 @@
     }
     
     .slider h2{
-        font-size: 30px;
+        font-size: 22px;
         font-family: "SFUIDisplayBold";
         color: white;
         justify-content: center;
@@ -213,10 +213,6 @@
         transform: translate(10%, -50%);
         padding: 10px;
         z-index:2;
-        justify-content:center;
-        margin-left: auto;
-        margin-right: auto;
-        align-items: center;
         
     }
     .slider .slick-slide img {
@@ -228,6 +224,10 @@
         font-size: 22px;
         font-family: "SFUIDisplayBold";
         color: white;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
         font-weight: bold;
     }
     .slider p{
