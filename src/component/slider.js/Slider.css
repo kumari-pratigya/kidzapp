@@ -17,7 +17,7 @@
     position:absolute;
     top:30%;
     z-index:2;
-    transform: translate(50px, 20px);
+    transform: translate(250px, 20px);
     width:700px;
     height:auto;
     margin-right: auto;
@@ -206,8 +206,8 @@
         position: relative;
     }
     .BannerContent{
-    position:absolute;
-    top:30%;
+        position:absolute;
+        top:30%;
     z-index:2;
     transform: translate(250px, 20px);
     width:700px;
